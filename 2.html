@@ -19,10 +19,16 @@
         <img src="image/jcase_item_00.jpg">
         <img src="image/jcase_item_01.jpg" alt="">
         <img src="image/jcase_item_02.jpg" alt="">
+        <img src="image/jcase_item_03.jpg" alt="">
+                <img src="image/jcase_item_04.jpg" alt="">
+                <img src="image/jcase_item_05.jpg" alt="">
+                <img src="image/jcase_item_06.jpg" alt="">
+                <img src="image/jcase_item_07.jpg" alt="">
+               
     </div>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
     <script>
-        var index =2;
+        var index =7;
         var z_index=999;
         function job1(){
             $($("#scroll-images img")[index]).fadeOut(function(){
@@ -31,7 +37,7 @@
                 $(this).show();
                 index=index-1;
                 if(index<0){
-                    index=2;
+                    index=7;
                 }
             })
         }
